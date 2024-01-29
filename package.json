@@ -1,5 +1,6 @@
 {
   "name": "orebishop",
+  "homepage": "/wp-content/themes/tienda-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
