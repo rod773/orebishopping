@@ -29,6 +29,7 @@ const HeaderBottom = () => {
 
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
+    console.log(showSearchBar);
   };
 
   useEffect(() => {
