@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import {
-  bannerImgOne,
-  bannerImgTwo,
-  bannerImgThree,
-} from "../../assets/images";
+import { bannerImgOne, bannerImgTwo, bannerImgThree } from "assets/images";
 import Image from "../designLayouts/Image";
 
 const Banner = () => {
