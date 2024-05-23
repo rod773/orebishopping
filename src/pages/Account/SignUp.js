@@ -72,36 +72,36 @@ const SignUp = () => {
     e.preventDefault();
     if (checked) {
       if (!clientName) {
-        setErrClientName("Enter your name");
+        setErrClientName("Introduce tu Nombre");
       }
       if (!email) {
-        setErrEmail("Enter your email");
+        setErrEmail("Introduce tu Email");
       } else {
         if (!EmailValidation(email)) {
-          setErrEmail("Enter a Valid email");
+          setErrEmail("Introduce un Email válido");
         }
       }
       if (!phone) {
-        setErrPhone("Enter your phone number");
+        setErrPhone("Introduce tu teléfono");
       }
       if (!password) {
-        setErrPassword("Create a password");
+        setErrPassword("Crear un password");
       } else {
         if (password.length < 6) {
-          setErrPassword("Passwords must be at least 6 characters");
+          setErrPassword("El password debe ser al menos de 6 caracteres");
         }
       }
       if (!address) {
-        setErrAddress("Enter your address");
+        setErrAddress("Introduce tu dirección");
       }
       if (!city) {
-        setErrCity("Enter your city name");
+        setErrCity("Introduce el nombre de tu ciudad");
       }
       if (!country) {
-        setErrCountry("Enter the country you are residing");
+        setErrCountry("Introduce tu pais de residencia");
       }
       if (!zip) {
-        setErrZip("Enter the zip code of your area");
+        setErrZip("Introduce tu código postal");
       }
       // ============== Getting the value ==============
       if (
@@ -116,7 +116,7 @@ const SignUp = () => {
         zip
       ) {
         setSuccessMsg(
-          `Hello dear ${clientName}, Welcome you to OREBI Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
+          `Hello dear ${clientName}, Welcome you to Afa Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
         );
         setClientName("");
         setEmail("");
